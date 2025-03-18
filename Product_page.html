@@ -1,0 +1,169 @@
+<!--Name: Thaeem Fagan, ID: 2205592-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="jscript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .button-container button {
+            background-color: #004C99; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .button-container button:hover {
+            background-color: #003366; 
+        }
+
+        .navbar a {
+            color: white; 
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="../Resources/logo.jpg" class="header-logo" alt="Company Logo">
+        <h1 class="header-title">KITGAME</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="Index.html"><img src="../Resources/logo.jpg" class="navlogo" alt="Company Logo"></a>
+        <a href="#About_us">ABOUT US</a>
+        <a href="mailto:2205592@students.utech.edu.jm" target="_blank">CONTACT US</a>
+    </div>
+
+    <h1>OUR PRODUCTS</h1>
+
+    <div class="image_container">
+        <div class="item">
+            <input type="checkbox" id="item1" value="5000">
+            <label for="item1">
+                <img src="../Resources/Jersey.jpg" alt="FC BARCELONA Home 14/15">
+                <p>FC BARCELONA Home 14/15</p>
+                <h3>$5000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item2" value="6000">
+            <label for="item2">
+                <img src="../Resources/gold.jpg" alt="FC BARCELONA Away 15/16">
+                <p>FC BARCELONA Away 15/16</p>
+                <h3>$6000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item3" value="6000">
+            <label for="item3">
+                <img src="../Resources/aqua.jpg" alt="FC BARCELONA Third 16/17">
+                <p>FC BARCELONA Third 16/17</p>
+                <h3>$6000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item4" value="7000">
+            <label for="item4">
+                <img src="../Resources/kit.jpg" alt="FC BARCELONA Away 16/17">
+                <p>FC BARCELONA Away 16/17</p>
+                <h3>$7000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item5" value="6000">
+            <label for="item5">
+                <img src="../Resources/third.jpg" alt="FC BARCELONA Home 17/18">
+                <p>FC BARCELONA Home 17/18</p>
+                <h3>$6000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item6" value="5000">
+            <label for="item6">
+                <img src="../Resources/Jersey7.jpeg" alt="FC BARCELONA Away 18/19">
+                <p>FC BARCELONA Away 18/19</p>
+                <h3>$5000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item7" value="5000">
+            <label for="item7">
+                <img src="../Resources/Jersey8.jpg" alt="FC BARCELONA Home 19/20">
+                <p>FC BARCELONA Home 19/20</p>
+                <h3>$5000</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item8" value="6500">
+            <label for="item8">
+                <img src="../Resources/Jersey9.jpg" alt="FC BARCELONA Away 21/22">
+                <p>FC BARCELONA Away 21/22</p>
+                <h3>$6500</h3>
+            </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="item9" value="7000">
+            <label for="item9">
+                <img src="../Resources/JerseyBar.jpg" alt="MESSI ICONIC Away PSG KIT 22/23">
+                <p>PSG MESSI ICONIC Away KIT 22/23</p>
+                <h3>$7000</h3>
+            </label>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="checkoutBtn" onclick="confirmSelection()">READY TO CHECK OUT</button>
+        <button id="cancelBtn" onclick="window.location.href = 'product_page.html'">CANCEL</button>
+        <button id="exitBtn" onclick="window.location.href = 'login.html'">EXIT</button>
+    </div>
+    
+    <br><br><br>
+    <hr>
+
+    <div class="about_us">
+        <h3><a name="About_us"></a>ABOUT US</h3>
+        <p> At FCB KitGame, we're passionate about bringing the heart and soul of FC Barcelona directly to our fans. As lifelong supporters of this legendary club, we know the pride that comes with wearing the iconic Barça colors. 
+            That is why we offer an exclusive selection of authentic and high-quality FC Barcelona jerseys from past and present seasons. Whether you are cheering at Camp Nou or showing your love around
+             the world, our jerseys ensure you wear the crest with pride. Join us in celebrating the spirit of Barça—Més que un club!</p>
+        <p>Name: Thaeem Fagan <br>ID#:2205592<br>Individual Assessment 2<br>Class: Tuesday @5pm</p>
+        <a href="mailto:2205592@students.utech.edu.jm" target="_blank">CONTACT US</a>
+    </div>
+    
+    <div class="footer">
+        <footer>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4><br>
+                <a href="mailto:2205592@students.utech.edu.jm" target="_blank">CONTACT US.</a>
+            </div>
+            <div class="footer-social">
+                <h4>FOLLOW ME!!</h4>
+                <a href="https://www.instagram.com/official._.thaeem/" target="_blank">INSTAGRAM</a>
+            </div>
+
+            <p>&copy; 2024 KITGAME. ALL RIGHTS RESERVED.</p>
+        </footer>
+    </div>
+</body>
+</html>
