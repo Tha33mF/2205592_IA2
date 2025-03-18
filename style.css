@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.header {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../Resources/bkg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.header-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  height: 100px;
+}
+
+.header-title {
+  font-size: 80px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Anton', sans-serif;
+  color: #da0f0f;
+}
+
+.navbar {
+  background-color: #004C99;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+  height: 30px;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 30px 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #003366;
+}
+
+.navlogo {
+  height: 100%;
+  width: 3%;
+}
+
+.image_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item p {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.item h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #004C99;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+button#cancelBtn {
+  background-color: #be0d0d;
+}
+
+button#cancelBtn:hover {
+  background-color: #8b0b0b;
+}
+
+.footer {
+  background-color: #004C99;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.footer-links, .footer-social {
+  margin: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.about_us {
+  margin: 100px;
+}
