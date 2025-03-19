@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../Resources/bkg.jpg');
+  background-image: url('bkg.jpg');
   background-size: cover;
   background-position: center;
   color: white;
